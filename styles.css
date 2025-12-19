@@ -9,7 +9,6 @@
 /* BODY */
 body {
     height: 100vh;
-    background: yellow; /* тимчасово для перевірки */
 }
 
 /* BLOCKS */
@@ -17,29 +16,30 @@ body {
     height: 30vh;
     background-color: #ffcccc;
     display: flex;
-    align-items: center;        /* вертикально по центру */
-    justify-content: flex-start; /* зліва */
+    align-items: center;          /* вертикально по центру */
+    justify-content: flex-start;  /* зліва */
 }
 
 .main {
     height: 40vh;
     background-color: #ccffcc;
     display: flex;
-    align-items: center;        /* вертикально по центру */
-    justify-content: center;    /* по центру */
+    align-items: center;          /* вертикально по центру */
+    justify-content: center;      /* по центру */
 }
 
 .footer {
     height: 30vh;
     background-color: #ccccff;
     display: flex;
-    align-items: center;        /* вертикально по центру */
-    justify-content: flex-end;  /* справа */
+    align-items: center;          /* вертикально по центру */
+    justify-content: flex-end;    /* справа */
 }
 
 /* TEXT */
 .text {
-    font-size: 24px;
-    color: #333;
+    font-size: 24px;              /* обовʼязково */
+    color: #333;                  /* обовʼязково */
     padding: 20px;
+    font-weight: 500;
 }
